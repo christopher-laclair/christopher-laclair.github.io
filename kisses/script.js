@@ -91,7 +91,7 @@ gameOver = status => {
   if (status === 'win') {
     startButton.innerHTML = 'You win! Play again?';
   } else {
-    startButton.innerHTML = 'Try Again - Go pick up Mini poops!';
+    startButton.innerHTML = 'Go pick up Mini poops! Try Again?';
   }
   currentlyPlaying = false;
 };
