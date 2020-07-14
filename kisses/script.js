@@ -3,13 +3,13 @@ let doorImage2 = document.getElementById('door2');
 let doorImage3 = document.getElementById('door3');
 //let botDoorPath = "https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/robot.svg";
 //let botDoorPath = "file:///C:/Users/chris/OneDrive/codecademy/choredoor/kisses.jpg";
-let botDoorPath = "https://github.com/christopher-laclair/pictures/blob/master/kisses.jpg?raw=true";
+let botDoorPath = "./kisses.jpg";
 //let beachDoorPath = "https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/beach.svg";
 //let beachDoorPath = "file:///C:/Users/chris/OneDrive/codecademy/choredoor/spirit-linus.png"
-let beachDoorPath = "https://github.com/christopher-laclair/pictures/blob/master/spirit-linus.png?raw=true";
+let beachDoorPath = "./spirit-linus.png";
 //let spaceDoorPath = "https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/space.svg";
 //let spaceDoorPath = "file:///C:/Users/chris/OneDrive/codecademy/choredoor/yip.png"
-let spaceDoorPath = "https://github.com/christopher-laclair/pictures/blob/master/yip.png?raw=true";
+let spaceDoorPath = "./yip.png";
 let numClosedDoors = 3;
 let openDoor1;
 let openDoor2;
